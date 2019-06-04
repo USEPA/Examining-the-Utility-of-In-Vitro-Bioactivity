@@ -1,0 +1,19 @@
+Package: ExpoCastPredictor
+Version: 0.7-1
+Date: 2016-06-09
+Title: High Throughput Exposure Prediction
+Author: R. Woodrow Setzer [aut, cre]
+Maintainer: R. Woodrow Setzer <setzer.woodrow@epa.gov>
+Description: A function for providing high throughput exposure
+  estimates for chemicals based either on CAS registry number or five
+  chemical characteristics (
+  production volume and four binary variables that very coarsely
+  characterizes the chemical's use). Returned value are select quantiles
+  of the posterior distribution of the estimate of the population
+  geometric mean exposure level. 
+License: Unlimited
+LazyData: TRUE
+ByteCompile: TRUE
+NeedsCompilation: no
+Packaged: 2016-06-10 21:09:48 UTC; wsetzer
+Built: R 3.2.3; ; 2016-06-10 21:16:21 UTC; windows
